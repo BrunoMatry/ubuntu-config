@@ -43,6 +43,14 @@ sudo apt-get install gimp vlc flashplugin-installer rar unrar zip unzip
 
 # Installer les drivers
 
+# Installer java (http://www.oracle.com/technetwork/java/javase/overview/index.html)
+sudo mkdir -p -v /opt/java
+cd ~/Downloads
+tar xvzf ~/Downloads/jre-****-linux-i586.tar.gz
+sudo mv -v jre****/opt/java
+sudo update-alternatives --install "/usr/bin/java" "java" "/opt/java/jre****/bin/java" 1
+sudo update-alternatives --set java /opt/java/jre****/bin/java 
+
 # Nettoyer
 sudo apt-get autoclean
 sudo apt-get autoremove
