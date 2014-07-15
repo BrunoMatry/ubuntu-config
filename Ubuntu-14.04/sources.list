@@ -4,6 +4,17 @@ deb http://fr.archive.ubuntu.com/ubuntu/ precise-updates main restricted univers
 deb http://fr.archive.ubuntu.com/ubuntu/ precise-security main restricted universe multiverse
 deb http://fr.archive.ubuntu.com/ubuntu/ precise-backports main restricted universe multiverse
 
+deb http://fr.archive.ubuntu.com/ubuntu/ trusty main restricted universe multiverse
+deb http://security.ubuntu.com/ubuntu trusty-security main restricted universe multiverse
+deb http://fr.archive.ubuntu.com/ubuntu/ trusty-updates main restricted universe multiverse
+deb http://fr.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+
+# Dépôts de sources (uniquement utiles pour télécharger les sources avec apt-get source. Dans ce cas, enlever les #)
+# deb-src http://fr.archive.ubuntu.com/ubuntu/ trusty restricted universe multiverse
+# deb-src http://security.ubuntu.com/ubuntu trusty-security restricted universe multiverse
+# deb-src http://fr.archive.ubuntu.com/ubuntu/ trusty-updates restricted universe multiverse
+# deb-src http://fr.archive.ubuntu.com/ubuntu/ trusty-backports main restricted universe multiverse
+
 ## DEPOTS SUPPLEMENTAIRES ##
 # deb http://archive.canonical.com/ubuntu precise partner
 deb http://extras.ubuntu.com/ubuntu precise main
